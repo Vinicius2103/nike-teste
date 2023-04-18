@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NIKE</title>
+  <link rel="icon" href="/imgs/NIKEICONE.jfif" type="image/png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body>
+  <!--Navegação-->
+  <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index:999 ;">
+    <div class="container-fluid">
+      <img src="/imgs/NIKEICONE.jfif" class="" alt="...">
+      <a class="navbar-brand" href="#">NIKE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- Botoes home / contato / Patrocinadores-->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Modelos">Modelos</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contato|QuemSomos">Contate-nos</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#PATROCINIO">Patrocinadores</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Sobre nós
+            </a>
+            <!--Botão quem somo e dono-->
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#Contato|QuemSomos">Quem Somos</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#Contato|QuemSomos">Dono</a></li>
+
+            </ul>
+          </li>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="s ubmit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--Carousel com as 3 primeiras imagens no topo do site -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <!--Imagens do carousel-->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/imgs/nik.webp" class="d-block w-100" alt="..." style="height: 900px; width: 500px;">
+      </div>
+      <div class="carousel-item">
+        <img src="/imgs/nikke.jpg" class="d-block w-100" alt="..." style="height: 900px; width: 500px;">
+      </div>
+      <div class="carousel-item">
+        <img src="/imgs/nikkk.jpg" class="d-block w-100" alt="..." style="height: 900px; width: 500px;">
+      </div>
+      <!--Botões do carousel-->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--Cards com todos os modelos EM ESTOQUE |OU| ESGOTADO-->
+  <div class="row row-cols-1 row-cols-md-3 g-4" id="Modelos">
+    <div class="col">
+      <div class="card h-100">
+        <img src="/imgs/dolow2.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Valentine’s Day</h5>
+          <p class="card-text">O Dunk Low é um emblema testado e comprovado. Recém-saído da imprensa, o colorway Night
+            Maroon e Medium Soft Pink é a edição perfeita para qualquer ajuste. Elaborado com couro legítimo e
+            sintético, ele refina o guarda-roupa básico com um toque sazonal moderno. O amortecimento de espuma e o cano
+            baixo acolchoado permitem que você jogue em qualquer lugar com conforto.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Em estoque</small>
+        </div>
+        <div class="progress">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25"
+            aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/imgs/dolow.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tênis Nike Air Zoom Pegasus 39 Masculino</h5>
+          <p class="card-text">Correr é um ritual diário, cada passo aproxima você da sua meta pessoal. Deixe o Nike Air
+            Zoom Pegasus 39 levar você a um novo patamar com um design intuitivo, seja para o treino ou para a corrida.
+            Mais leve na parte de cima do que o Pegasus 38 e ideal para todas as estações, ele tem uma sensação de
+            suporte para ajudar a manter os pés firmes, enquanto o amortecimento debaixo do pé e as unidades Zoom Air
+            duplas (uma a mais que o Peg 38) deixam seus passos mais rápidos. Seu confiável companheiro com asas está de
+            volta. É hora de voar.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Em estoque</small>
+        </div>
+        <div class="progress">
+          <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+            aria-valuemax="100"></div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/imgs/DOWLOA4.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sunset Haze</h5>
+          <p class="card-text">Sempre dentro, sempre fresco. O Air Jordan 1 Low oferece a você um pedaço da história e
+            herança da Jordan que é confortável o dia todo. Escolha suas cores e saia com o perfil icônico construído
+            com uma mistura de materiais de alta qualidade e Air encapsulado no calcanhar.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Em estoque</small>
+        </div>
+        <div class="progress">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25"
+            aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/imgs/Tênis Nike React Infinity Run Flyknit 3 Masculino.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tênis Nike React Infinity Run Flyknit 3 Masculino</h5>
+          <p class="card-text">Continua sendo nosso tênis mais testado, feito para ajudar você a seguir firme após
+            elevadas metas de corrida. O Nike React Infinity Run 3 oferece uma sensação de maciez e estabilidade com um
+            percurso suave durante as rotas, longas e curtas. A parte de cima ventilada foi feita para parecer contida,
+            mas flexível. Ainda acrescentamos mais amortecimento ao redor do calcanhar e tornozelo para uma sensação de
+            sustentação. Continue correndo, estamos aqui por você.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Em estoque</small>
+        </div>
+        <div class="progress">
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75"
+            aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/imgs/Tênis Nike ZoomX Invincible Run Flyknit 3 Masculino.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tênis Nike ZoomX Invincible Run Flyknit 3 Feminino</h5>
+          <p class="card-text">O Invincible Run 3 ostenta uma placa de amortecimento espesso para ajudá-lo a ficar de pé
+            hoje, amanhã e além. É super elástico e flexível, para que você possa seguir seu caminho preferido e voltar
+            para a próxima corrida sentindo-se pronto e revigorado.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Esgotado</small>
+        </div>
+        <div class="progress">
+          <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100"
+            aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/imgs/Tênis Nike ZoomX Invincible Run Flyknit 3 Masculino.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tênis Nike Pegasus Turbo Next Nature Masculino</h5>
+          <p class="card-text">Deixe esse grande tênis te ajudar a percorrer os quilômetros mais difíceis. Completo com
+            espuma mais leve, responsiva e reaproveitada e um cabedal super leve, este tênis de cor heterogênea é feito
+            para ajudá-lo a aumentar o ritmo sem sacrificar o conforto enquanto você se esforça para atingir seu recorde
+            pessoal. Esse imortal é construído de forma responsável com pelo menos 50% de materiais reciclados por peso,
+            enquanto mantém seu etos diário testado e aprovado.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Em estoque</small>
+        </div>
+        <div class="progress">
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75"
+            aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br>
+  <!-- Contato || Quem Somos || Dono -->
+  <div class="container" id="Contato|QuemSomos">
+    <p>
+      <!--Aba com os 2 botoes em colapse-->
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+        aria-expanded="false" aria-controls="multiCollapseExample1">Contate-nos</a>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2"
+        aria-expanded="false" aria-controls="multiCollapseExample2">Quem somos | Dono</button>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+        aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Expandir Tudo</button>
+    </p>
+    <div class="row">
+      <!--Formulario para entrar em contato-->
+      <div class="col">
+        <div class="collapse multi-collapse" id="multiCollapseExample1">
+          <div class="card card-body">
+            <form action="http://formmail.kinghost.net/formmail.cgi" method="POST">
+              <input type="hidden" name="recipient" value="testeiseuemail@gmail.com">
+              <!-- Pode ser qualquer endereço de email -->
+              <input type="hidden" name="redirect" value="http://seudominio">
+              <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
+              <input type="hidden" name="subject" value="teste de assunto"> <!-- Assunto da mensagem -->
+              <input type="hidden" name="email" value="email@doseudominio">
+              <!-- Deve ser uma conta de email ativa em seu domínio -->
+
+              <p>
+                Nome:<br />
+                <input type="text" size="30" name="nome">
+              </p>
+
+              <p>
+                E-mail:<br />
+                <input type="text" size="30" name="replyto">
+              </p>
+
+              <p>
+                Comentários:<br />
+                <input type="text" size="35" name="Comentarios">
+              </p>
+
+              <p>
+                <input type="submit" name="BTEnvia" value="Enviar">
+                <input type="reset" name="BTApaga" value="Apagar">
+              </p>
+            </form>
+          </div>
+        </div>
+
+        <!--
+        Quem Somos || Dono
+      -->
+        <div class="col">
+          <div class="collapse multi-collapse" id="multiCollapseExample2">
+            <div class="card card-body">
+              Nike, Inc. é uma empresa estadunidense de calçados, roupas, e acessórios fundada em 1972 por Bill Bowerman
+              e Philip Knight. A sua sede fica em Beaverton, no estado de Oregon, nos Estados Unidos. Em 2016, foi
+              considerada a marca de roupas mais valiosa do mundo, segundo o ranking BrandZ da consultoria Millward
+              Brown, avaliada em 37.472 bilhões de dólares. <BR>
+              A empresa patrocina grandes nomes como Cristiano Ronaldo, Kylian Mbappé, Eden Hazard, Kevin De Bruyne,
+              Virgil van Dijk, Harry Kane, Kyrie Irving, Rafael Nadal, Serena Williams, LeBron James e Mo Farah. A marca
+              é também responsável pelo estabelecimento da linha Air Jordan (criada em parceria com a estrela do
+              basquete Michael Jordan). A Nike é ainda muito conhecida pelo seus tênis feitos em colaboração com outras
+              marcas como mais recentemente a Off-White, liderada por Virgil Abloh. Entre os seus modelos mais
+              conhecidos estão os da linha Air Max, como os Air Max 1,[5] Air Max 90,[6] ou Air Max 95.[7]
+              </BR>
+            </div>
+          </div>
+          <br><br><br>
+        </div>
+      </div>
+    </div>
+    <!--Todos os patrocinadores-->
+    <H1>Patrocinadores</H1>
+    <div id="PATROCINIO">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+
+        <div class="col">
+          <div class="card">
+            <img src="/imgs/flamengo.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Flamengo</h5>
+              <p class="card-text">17 de novembro de 1895, Rio de Janeiro, Rio de Janeiro</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/imgs/images.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Globo</h5>
+              <p class="card-text">26 de abril de 1965, Rio de Janeiro, Rio de Janeiro</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/imgs/download.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Net Flix</h5>
+              <p class="card-text">29 de agosto de 1997, Scotts Valley</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/imgs/download (1).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Vasco</h5>
+              <p class="card-text">21 de agosto de 1898, Saúde, Rio de Janeiro</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
